@@ -1,6 +1,6 @@
 {
   "name": "sparkleappz",
-  "homepage" : "https://vanchas.github.io/Sparkle-Appz/",
+  "homepage": "https://vanchas.github.io/Sparkle-Appz/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,6 +8,7 @@
     "@testing-library/react": "^9.4.0",
     "@testing-library/user-event": "^7.2.1",
     "bootstrap": "^4.4.1",
+    "gh-pages": "^2.2.0",
     "mdbreact": "^4.25.1",
     "node-sass": "^4.13.1",
     "prop-types": "^15.7.2",
