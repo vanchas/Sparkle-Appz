@@ -57,7 +57,7 @@ class NavbarPage extends Component {
                   <NavLink
                     className={s.nav_item}
                     activeClassName={s.activeLink}
-                    to="/"
+                    to="/home"
                   >
                     Home
                   </NavLink>
