@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c23738dd06da441552320deebf5b117c",
+    "revision": "c9b72bfba34b8857a4b73e9f7b266eec",
     "url": "/Sparkle-Appz/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Sparkle-Appz/static/css/2.83870dc8.chunk.css"
   },
   {
-    "revision": "9a324a3ca33a7284b57c",
+    "revision": "07bafb32cd7651690f20",
     "url": "/Sparkle-Appz/static/css/main.99b8451c.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Sparkle-Appz/static/js/2.74fb0835.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9a324a3ca33a7284b57c",
-    "url": "/Sparkle-Appz/static/js/main.b4b8f5fa.chunk.js"
+    "revision": "07bafb32cd7651690f20",
+    "url": "/Sparkle-Appz/static/js/main.65bca6f4.chunk.js"
   },
   {
     "revision": "e3671ef512a4e816c678",
