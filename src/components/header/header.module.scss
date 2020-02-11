@@ -28,5 +28,17 @@
 @media screen and (max-width: 768px) {
   .header {
     border: none;
+
+    .header_contact_info ul {
+      display: grid;
+      grid-template-rows: 1fr 1fr;
+      grid-gap: 0;
+
+      li {
+        padding-bottom: .4em;
+        text-align: end;
+      }
+    }
   }
+  
 }

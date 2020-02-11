@@ -4,14 +4,13 @@ import './App.scss';
 import Footer from '../footer/Footer';
 import Header from '../header/Header';
 import MainContent from '../mainContent/MainContent';
-import Nav from '../header/nav/Nav';
 
 function App() {
   return (
     <div className="App">
       <Header />
       <MainContent />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

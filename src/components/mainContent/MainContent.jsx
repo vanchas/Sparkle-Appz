@@ -12,7 +12,7 @@ function MainContent() {
   return (
     <main className={s.main}>
       <Switch>
-        <Route exact path="/home" render={() => <Home />} />
+        <Route exact path="/" render={() => <Home />} />
         <Route path="/about" render={() => <About />} />
         <Route path="/services" render={() => <Services />} />
         <Route path="/portfolio" render={() => <Portfolio />} />
