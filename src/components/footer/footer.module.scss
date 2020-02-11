@@ -1,2 +1,94 @@
 .footer {
+  padding: 2em 0;
+
+  .social_links_list {
+    padding: 1em 3em;
+    display: grid;
+    grid-auto-flow: column;
+    list-style: none;
+    grid-gap: 1em;
+
+    li a {
+      text-decoration: none;
+      color: #000;
+      font-size: 1.5em;
+      img {
+        margin-right: 0.5em;
+      }
+    }
+  }
+
+  .footer_content_group {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    justify-items: center;
+    grid-gap: 1em;
+    background: #f9fafd;
+    padding: 3em 2em;
+
+    .footer_text {
+      padding: 0 1em;
+    }
+
+    li {
+      list-style: none;
+      a {
+        text-decoration: none;
+        color: black;
+      }
+      h3 {
+        margin: 1em 0;
+      }
+      .icon {
+        font-weight: 700;
+        transform: translateY(0.3em);
+      }
+    }
+
+    ul {
+      display: grid;
+      grid-gap: 1em;
+    }
+
+    .important_links {
+    }
+
+    img {
+      height: 4em;
+      margin-bottom: 2em;
+    }
+
+    .footer_contacts {
+      display: grid;
+      grid-gap: 2em;
+      .skype_logo {
+        width: 1.2em;
+        height: 1.2em;
+        margin: 0 0.4em 0 0.3em;
+      }
+    }
+  }
+  .footer_foot {
+    display: grid;
+    justify-items: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    .social_links_list {
+      display: grid;
+      grid-auto-flow: row;
+      justify-items: center;
+    }
+
+    .footer_content_group {
+      display: grid;
+      grid-template-columns: 1fr;
+      justify-items: start;
+      grid-template-rows: repeat(4, 1fr);
+      grid-gap: 1em;
+    }
+  }
 }
