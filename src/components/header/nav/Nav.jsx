@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import s from "./nav.module.scss";
 import { NavLink } from "react-router-dom";
+import Icon from "@material-ui/core/Icon";
 
 class NavbarPage extends Component {
   state = {
@@ -110,27 +111,27 @@ class NavbarPage extends Component {
                 Contact
               </NavLink>
             </li>
-            <li className="nav-item">
+            <li className={`${s.btn_group} nav-item`}>
               <NavLink
                 to="/contact"
-                className={`text-primary ${s.button_get_free_quote} ${s.nav_item}`}
+                className={` ${s.button_get_free_quote} ${s.nav_item}`}
                 activeClassName={s.activeLink}
                 href="https://www.sparkleappz.com/contact/"
               >
                 Get A Free Quote
               </NavLink>
-            </li>
-            <li className="nav-item">
-              <a
-                className={`${s.button_to_call} ${s.nav_item}`}
-                href="https://www.sparkleappz.com/tel:+91773791591"
-              >
-                Call&nbsp;
-                <img
-                  src="https://www.sparkleappz.com/wp-content/uploads/2019/12/phone_icn.png"
-                  alt=""
-                />
-              </a>
+              <span>
+                <a
+                  className={`${s.button_to_call}
+                ${s.nav_item}`}
+                  href="https://www.sparkleappz.com/tel:+91773791591"
+                >
+                  Call&nbsp;
+                  <Icon style={{ transform: "scale(.7)  translateY(.3em)" }}>
+                    phone_enabled
+                  </Icon>{" "}
+                </a>
+              </span>
             </li>
           </ul>
         </div>

@@ -1,8 +1,10 @@
-.navbar_wrap {
+$blue: #2355da;
+$green: #00f349;
 
+.navbar_wrap {
   .nav_toggle {
     background: #0aa5aa;
-    transform: scaleX(.8);
+    transform: scaleX(0.8);
   }
 
   .navbar_nav {
@@ -15,7 +17,7 @@
     position: absolute;
     right: 0;
     display: grid;
-    grid-template-columns: repeat(6, 1fr) 15em 1fr;
+    grid-template-columns: repeat(6, 1fr) 2fr;
     justify-items: center;
     align-items: center;
 
@@ -25,13 +27,13 @@
       padding: 1em;
 
       &:hover {
-        color: #3a3aff;
+        color: $blue;
       }
     }
 
     .drop_item {
       &:hover {
-        color: #3a3aff;
+        color: $blue;
       }
     }
   }
@@ -40,31 +42,36 @@
     color: #0aa5aa;
   }
 
-  .button_get_free_quote {
-    color: #3a3aff;
-    border: 1px solid #3a3aff;
-    border-radius: 3em;
-    text-transform: none;
+  .btn_group {
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 1em;
+    line-height: 1.5em;
+    align-items: center;
 
-    &:hover {
-      color: #fff;
-      background: #0101e0;
-      transition: 0.5s;
+    .button_get_free_quote {
+      color: $blue !important;
+      border: 1px solid $blue;
+      border-radius: 3em;
+      text-transform: none;
+
+      &:hover {
+        color: #fff !important;
+        background: $blue;
+        transition: 0.5s;
+      }
     }
-  }
-  .button_to_call {
-    border: 1px solid #00f349;
-    border-radius: 3em;
-    text-transform: none;
+    .button_to_call {
+      color: $green !important;
+      border: 1px solid $green;
+      border-radius: 3em;
+      text-transform: none;
 
-    &:hover {
-      color: #fff;
-      background: #00f349;
-      transition: 0.5s;
-    }
-
-    img {
-      transform: rotate(270deg);
+      &:hover {
+        color: #fff !important;
+        background: $green;
+        transition: 0.5s;
+      }
     }
   }
 }
@@ -76,15 +83,12 @@
       display: grid;
       grid-auto-flow: row;
       grid-template-columns: 1fr;
-      grid-template-rows: repeat(6, 2em) 3.5em 3.5em;
+      grid-template-rows: repeat(6, 2em) 3.5em;
       justify-items: start;
       background: #f8f8f8;
       grid-gap: 1em;
       padding-bottom: 1em;
 
-      .nav_item {
-        // border-top: 1px solid #e2e2e2;
-      }
     }
   }
 }

@@ -35,7 +35,7 @@ function Home() {
       <Industries />
       <OurValues />
       <Team />
-      {/* <ReachUs /> */}
+      <ReachUs />
     </div>
   );
 }
