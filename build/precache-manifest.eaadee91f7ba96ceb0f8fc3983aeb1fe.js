@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "44b7ac7a3b48a76f57af7f3cb0417c5b",
+    "revision": "a653529a61d1f55f6d7ffb33a813b6d8",
     "url": "/Sparkle-Appz/index.html"
   },
   {
-    "revision": "71f7a358d1ff04508a22",
+    "revision": "9ff107e5d27fff879648",
     "url": "/Sparkle-Appz/static/css/2.83870dc8.chunk.css"
   },
   {
-    "revision": "caa06c00bd233dd62a68",
-    "url": "/Sparkle-Appz/static/css/main.11e577c5.chunk.css"
+    "revision": "e2f54ba3b11a64696361",
+    "url": "/Sparkle-Appz/static/css/main.f904d08d.chunk.css"
   },
   {
-    "revision": "71f7a358d1ff04508a22",
-    "url": "/Sparkle-Appz/static/js/2.944576f9.chunk.js"
+    "revision": "9ff107e5d27fff879648",
+    "url": "/Sparkle-Appz/static/js/2.2733f422.chunk.js"
   },
   {
     "revision": "e933f8dbfdf496cb72e495663a499a00",
-    "url": "/Sparkle-Appz/static/js/2.944576f9.chunk.js.LICENSE.txt"
+    "url": "/Sparkle-Appz/static/js/2.2733f422.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "caa06c00bd233dd62a68",
-    "url": "/Sparkle-Appz/static/js/main.b1295711.chunk.js"
+    "revision": "e2f54ba3b11a64696361",
+    "url": "/Sparkle-Appz/static/js/main.89f4bd08.chunk.js"
   },
   {
     "revision": "e3671ef512a4e816c678",
