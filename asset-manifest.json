@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/Sparkle-Appz/static/css/main.e9c4a544.chunk.css",
-    "main.js": "/Sparkle-Appz/static/js/main.c2fd00fb.chunk.js",
-    "main.js.map": "/Sparkle-Appz/static/js/main.c2fd00fb.chunk.js.map",
+    "main.css": "/Sparkle-Appz/static/css/main.badcd80d.chunk.css",
+    "main.js": "/Sparkle-Appz/static/js/main.5472cc83.chunk.js",
+    "main.js.map": "/Sparkle-Appz/static/js/main.5472cc83.chunk.js.map",
     "runtime-main.js": "/Sparkle-Appz/static/js/runtime-main.70810c29.js",
     "runtime-main.js.map": "/Sparkle-Appz/static/js/runtime-main.70810c29.js.map",
     "static/css/2.83870dc8.chunk.css": "/Sparkle-Appz/static/css/2.83870dc8.chunk.css",
-    "static/js/2.61aaf03a.chunk.js": "/Sparkle-Appz/static/js/2.61aaf03a.chunk.js",
-    "static/js/2.61aaf03a.chunk.js.map": "/Sparkle-Appz/static/js/2.61aaf03a.chunk.js.map",
+    "static/js/2.a30a5b56.chunk.js": "/Sparkle-Appz/static/js/2.a30a5b56.chunk.js",
+    "static/js/2.a30a5b56.chunk.js.map": "/Sparkle-Appz/static/js/2.a30a5b56.chunk.js.map",
     "index.html": "/Sparkle-Appz/index.html",
-    "precache-manifest.9fdf23195f74b67c5f170a8189ca552e.js": "/Sparkle-Appz/precache-manifest.9fdf23195f74b67c5f170a8189ca552e.js",
+    "precache-manifest.ed04c887bf36a2e3dad4aeef2a0fd5cf.js": "/Sparkle-Appz/precache-manifest.ed04c887bf36a2e3dad4aeef2a0fd5cf.js",
     "service-worker.js": "/Sparkle-Appz/service-worker.js",
     "static/css/2.83870dc8.chunk.css.map": "/Sparkle-Appz/static/css/2.83870dc8.chunk.css.map",
-    "static/css/main.e9c4a544.chunk.css.map": "/Sparkle-Appz/static/css/main.e9c4a544.chunk.css.map",
-    "static/js/2.61aaf03a.chunk.js.LICENSE.txt": "/Sparkle-Appz/static/js/2.61aaf03a.chunk.js.LICENSE.txt",
+    "static/css/main.badcd80d.chunk.css.map": "/Sparkle-Appz/static/css/main.badcd80d.chunk.css.map",
+    "static/js/2.a30a5b56.chunk.js.LICENSE.txt": "/Sparkle-Appz/static/js/2.a30a5b56.chunk.js.LICENSE.txt",
     "static/media/react-bootstrap-carousel.css": "/Sparkle-Appz/static/media/react-bootstrap-carousel.f86d9bf3.svg",
     "static/media/slick-theme.css": "/Sparkle-Appz/static/media/slick.f97e3bbf.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.70810c29.js",
     "static/css/2.83870dc8.chunk.css",
-    "static/js/2.61aaf03a.chunk.js",
-    "static/css/main.e9c4a544.chunk.css",
-    "static/js/main.c2fd00fb.chunk.js"
+    "static/js/2.a30a5b56.chunk.js",
+    "static/css/main.badcd80d.chunk.css",
+    "static/js/main.5472cc83.chunk.js"
   ]
 }
