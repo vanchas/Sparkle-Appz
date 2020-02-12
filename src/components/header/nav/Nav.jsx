@@ -24,7 +24,7 @@ class NavbarPage extends Component {
           />
         </a>
         <button
-          className={`${s.nav_toggle} navbar-toggler`}
+          className={`${s.nav_toggle} navbar-light navbar-toggler`}
           type="button"
           data-toggle="collapse"
           data-target="#navbarSupportedContent"
@@ -34,80 +34,76 @@ class NavbarPage extends Component {
         >
           <span className="navbar-toggler-icon" />
         </button>
+
         <div
-          className={`${s.navbar_nav}  collapse navbar-collapse`}
+          className={`${s.navbar_nav} collapse navbar-collapse`}
           id="navbarSupportedContent"
         >
           <ul className={`${s.nav_item_wrap}  navbar-nav mr-auto`}>
             <li className="nav-item active">
-              <NavLink
-                className={s.nav_item}
-                activeClassName={s.activeLink}
-                to="/"
-              >
+              <NavLink className={s.nav_item} to="/">
                 Home
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink
-                className={`${s.nav_item}`}
-                activeClassName={s.activeLink}
-                to="/about"
-              >
+              <NavLink className={`${s.nav_item}`} to="/about">
                 About
               </NavLink>
             </li>
-            <li className="nav-item dropdown">
-              <NavLink
-                className={`nav-link text-dark dropdown-toggle ${s.drop_item} ${s.nav_item}`}
+            <li className={`${s.drom_item} nav-item dropdown`}>
+              <a
+                className={` nav-link dropdown-toggle ${s.drop_link} ${s.nav_item}`}
                 href="#"
                 id="navbarDropdown"
                 role="button"
                 data-toggle="dropdown"
                 aria-haspopup="true"
                 aria-expanded="false"
-                activeClassName={`${s.activeLink}`}
-                to="/services"
               >
                 Services
-              </NavLink>
-              <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a className="dropdown-item" href="#">
-                  Action
-                </a>
-                <a className="dropdown-item" href="#">
-                  Another action
-                </a>
-                <div className="dropdown-divider" />
-                <a className="dropdown-item" href="#">
-                  Something else here
-                </a>
+              </a>
+              <div
+                className={`${s.drop_menu} dropdown-menu`}
+                aria-labelledby="navbarDropdown"
+              >
+                <NavLink className={`${s.drop_link} dropdown-item`} to="/IOSDev">
+                  <Icon className={s.drop_item_icon}>keyboard_arrow_right</Icon>
+                  IOS App Development
+                </NavLink>
+                <NavLink className={`${s.drop_link} dropdown-item`} to="/AndroidDev">
+                  <Icon className={s.drop_item_icon}>keyboard_arrow_right</Icon>
+                  Android App Development
+                </NavLink>
+                <NavLink className={`${s.drop_link} dropdown-item`} to="/WebDev">
+                  <Icon className={s.drop_item_icon}>keyboard_arrow_right</Icon>
+                  Websites Development Services
+                </NavLink>
+                <NavLink className={`${s.drop_link} dropdown-item`} to="/3DGameDev">
+                  <Icon className={s.drop_item_icon}>keyboard_arrow_right</Icon>
+                  Unity 3D Game Development
+                </NavLink>
+                <NavLink className={`${s.drop_link} dropdown-item`} to="/MarketingServices">
+                  <Icon className={s.drop_item_icon}>keyboard_arrow_right</Icon>
+                  Digital Marketing Services
+                </NavLink>
+                <NavLink className={`${s.drop_link} dropdown-item`} to="/Ui/UxDesignServices">
+                  <Icon className={s.drop_item_icon}>keyboard_arrow_right</Icon>
+                  UI/UX Design Services
+                </NavLink>
               </div>
             </li>
             <li className="nav-item">
-              <NavLink
-                className={s.nav_item}
-                activeClassName={s.activeLink}
-                to="/portfolio"
-              >
+              <NavLink className={s.nav_item} to="/portfolio">
                 Portfolio
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink
-                className={s.nav_item}
-                activeClassName={s.activeLink}
-                to="/blog"
-              >
+              <NavLink className={s.nav_item} to="/blog">
                 Blog
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink
-                className={s.nav_item}
-                activeClassName={s.activeLink}
-                to="/contact"
-              >
+              <NavLink className={s.nav_item} to="/contact">
                 Contact
               </NavLink>
             </li>
@@ -115,7 +111,6 @@ class NavbarPage extends Component {
               <NavLink
                 to="/contact"
                 className={` ${s.button_get_free_quote} ${s.nav_item}`}
-                activeClassName={s.activeLink}
                 href="https://www.sparkleappz.com/contact/"
               >
                 Get A Free Quote

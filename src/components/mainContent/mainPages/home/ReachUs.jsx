@@ -1,5 +1,5 @@
 import React from "react";
-import s from "./home.module.scss";
+import s from "../contact/contact.module.scss";
 import FormContact from "../../FormContact";
 import Icon from "@material-ui/core/Icon";
 

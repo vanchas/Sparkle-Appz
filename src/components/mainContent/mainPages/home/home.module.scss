@@ -325,54 +325,54 @@ body {
   //   }
   // }
   // =====================
-  .client_comment_wrap {
-    background: $blue;
-    padding: 4em 1em;
+  // .client_comment_wrap {
+  //   background: $blue;
+  //   padding: 4em 1em;
 
-    h2 {
-      margin: 0 0 0.5em;
-      font-weight: 700;
-      color: #fff;
-    }
+  //   h2 {
+  //     margin: 0 0 0.5em;
+  //     font-weight: 700;
+  //     color: #fff;
+  //   }
 
-    .commnets_slider_wrap {
-      background: #fff;
-      display: grid;
-      justify-content: center;
-      margin: 0 0.9em;
-      padding: 1em 0.5em;
+  //   .commnets_slider_wrap {
+  //     background: #fff;
+  //     display: grid;
+  //     justify-content: center;
+  //     margin: 0 0.9em;
+  //     padding: 1em 0.5em;
 
-      div {
-        line-height: 2em;
+  //     div {
+  //       line-height: 2em;
 
-        img {
-          margin: 2em auto;
-          width: 7em;
-          border-radius: 50%;
-        }
+  //       img {
+  //         margin: 2em auto;
+  //         width: 7em;
+  //         border-radius: 50%;
+  //       }
 
-        i {
-          font-size: 2em;
-          color: #c4c4c4;
-          font-style: normal;
-          line-height: 0.1em;
-        }
+  //       i {
+  //         font-size: 2em;
+  //         color: #c4c4c4;
+  //         font-style: normal;
+  //         line-height: 0.1em;
+  //       }
 
-        p {
-          font-style: italic;
-          font-size: 1.1em;
-        }
+  //       p {
+  //         font-style: italic;
+  //         font-size: 1.1em;
+  //       }
 
-        h5 {
-          font-size: 1.1em;
-        }
+  //       h5 {
+  //         font-size: 1.1em;
+  //       }
 
-        span {
-          font-size: 0.9em;
-        }
-      }
-    }
-  }
+  //       span {
+  //         font-size: 0.9em;
+  //       }
+  //     }
+  //   }
+  // }
   // =======================
   .features_wrap {
     padding: 4em 1em;
@@ -631,107 +631,104 @@ body {
     }
   }
   // =============
-  .reach_us_wrap {
-    background: $blue;
-    padding: 3em 2em;
+//   .reach_us_wrap {
+//     background: $blue;
+//     padding: 3em 2em;
 
-    h3 {
-      font-weight: 700;
-    }
+//     h3 {
+//       font-weight: 700;
+//     }
 
-    .location {
-      color: #fff;
+//     .location {
+//       color: #fff;
 
-      .contact_buttons {
-        display: grid;
-        grid-auto-flow: column;
-        grid-gap: 2em;
-        justify-content: center;
-        line-height: 3.5em;
-        margin-top: 2em;
-        font-weight: 500;
+//       .contact_buttons {
+//         display: grid;
+//         grid-auto-flow: column;
+//         grid-gap: 2em;
+//         justify-content: center;
+//         line-height: 3.5em;
+//         margin-top: 2em;
+//         font-weight: 500;
 
-        .whatsapp_us {
-          border: 2px solid #fff;
-          padding: 0 2em;
-          border-radius: 3em;
-        }
+//         .whatsapp_us {
+//           border: 2px solid #fff;
+//           padding: 0 2em;
+//           border-radius: 3em;
+//         }
 
-        .call_us {
-          border: 2px solid #fff;
-          padding: 0 2em;
-          border-radius: 3em;
-        }
-      }
+//         .call_us {
+//           border: 2px solid #fff;
+//           padding: 0 2em;
+//           border-radius: 3em;
+//         }
+//       }
 
-      a {
-        text-decoration: none;
-        color: #fff;
-      }
+//       a {
+//         text-decoration: none;
+//         color: #fff;
+//       }
 
-      .block {
-        display: grid;
-        grid-auto-flow: column;
-        justify-content: start;
-        line-height: 2em;
-        margin-top: 2em;
-        text-align: start;
+//       .block {
+//         display: grid;
+//         grid-auto-flow: column;
+//         justify-content: start;
+//         line-height: 2em;
+//         margin-top: 2em;
+//         text-align: start;
 
-        h4 {
-          margin: 0.5em 1em;
-        }
+//         h4 {
+//           margin: 0.5em 1em;
+//         }
 
-        .img_holder {
-          padding-right: 1em;
-        }
+//         .img_holder {
+//           padding-right: 1em;
+//         }
 
-        .img {
-          transform: scale(0.8);
-          padding: 0 2em;
-        }
-        .img_second {
-          transform: scale(0.8);
-          padding: 0 0.5em 0 1em;
-        }
-      }
-    }
-  }
-  @media screen and (max-width: 768px) {
-    .reach_us_wrap {
-      display: grid;
-      grid-gap: 4em;
-      padding: 3em 0;
+//         .img {
+//           transform: scale(0.8);
+//           padding: 0 2em;
+//         }
+//         .img_second {
+//           transform: scale(0.8);
+//           padding: 0 0.5em 0 1em;
+//         }
+//       }
+//     }
+//   }
+//   @media screen and (max-width: 768px) {
+//     .reach_us_wrap {
+//       display: grid;
+//       grid-gap: 4em;
+//       padding: 3em 0;
 
-      .location {
-        .contact_buttons {
-          display: grid;
-          grid-auto-flow: column;
-          grid-gap: 1em;
-          // justify-content: center;
-          // justify-items: center;
-          // text-align: center;
+//       .location {
+//         .contact_buttons {
+//           display: grid;
+//           grid-auto-flow: column;
+//           grid-gap: 1em;
 
-          .whatsapp_us {
-            white-space: nowrap;
-          }
+//           .whatsapp_us {
+//             white-space: nowrap;
+//           }
 
-          .call_us {
-            white-space: nowrap;
-          }
-        }
+//           .call_us {
+//             white-space: nowrap;
+//           }
+//         }
 
-        .block {
-          display: grid;
-          grid-auto-flow: row;
-          justify-content: center;
-          text-align: center;
+//         .block {
+//           display: grid;
+//           grid-auto-flow: row;
+//           justify-content: center;
+//           text-align: center;
 
-          .img {
-            width: 15em;
-            padding-bottom: 2em;
-          }
-        }
-      }
-    }
-  }
+//           .img {
+//             width: 15em;
+//             padding-bottom: 2em;
+//           }
+//         }
+//       }
+//     }
+//   }
 }

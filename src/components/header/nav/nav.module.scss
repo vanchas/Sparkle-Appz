@@ -12,34 +12,44 @@ $green: #00f349;
   }
 
   .nav_item_wrap {
-    font-weight: 500;
+    font-weight: 600;
     text-transform: uppercase;
     position: absolute;
     right: 0;
     display: grid;
-    grid-template-columns: repeat(6, 1fr) 2fr;
+    grid-template-columns: repeat(6, 7em) 2fr;
     justify-items: center;
     align-items: center;
 
     .nav_item {
-      color: #464646;
+      color: #464646 !important;
       text-decoration: none;
       padding: 1em;
 
       &:hover {
-        color: $blue;
+        color: $blue !important;
       }
     }
 
-    .drop_item {
-      &:hover {
-        color: $blue;
+    .drom_item {
+      .drop_link {
+        &:hover {
+          color: $blue !important;
+        }
+        &:hover .drop_item_icon {
+          color: $blue !important;
+        }
+      }
+      .drop_menu {
+        background: #f8f8f8;
+        text-transform: none;
+
+        .drop_item_icon {
+          padding-top: 0.3em !important;
+          color: #8a8a8a !important;
+        }
       }
     }
-  }
-
-  .activeLink {
-    color: #0aa5aa;
   }
 
   .btn_group {
@@ -77,18 +87,50 @@ $green: #00f349;
 }
 
 @media screen and (max-width: 768px) {
-  .navbar_nav {
-    .nav_item_wrap {
-      position: static;
-      display: grid;
-      grid-auto-flow: row;
-      grid-template-columns: 1fr;
-      grid-template-rows: repeat(6, 2em) 3.5em;
-      justify-items: start;
-      background: #f8f8f8;
-      grid-gap: 1em;
-      padding-bottom: 1em;
+  .navbar_wrap {
+    padding: 0 !important;
 
+    img {
+      padding-left: 1em;
+    }
+    button {
+      margin-right: 1em;
+    }
+
+    .navbar_nav {
+      .nav_item_wrap {
+        position: static;
+        display: grid;
+        grid-auto-flow: row;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 2em) 3.5em;
+        justify-items: start;
+        background: #f8f8f8;
+        grid-gap: 1em;
+        padding: .5em 0 1em 0;
+        
+        li {
+          border-top: 1px solid #dadada;
+          width: 100%;
+          height: 3em;
+          line-height: 3em;
+
+          .drop_link {
+            transform: translateY(-1em);
+          }
+        }
+
+        .btn_group {
+          height: 5.2em;
+          line-height: 1.5em;
+          display: flex;
+          justify-content: center;
+
+          a {
+            margin-right: 1em;
+          }
+        }
+      }
     }
   }
 }

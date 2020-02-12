@@ -1,0 +1,260 @@
+$blue: #2355da;
+
+.contact_header_wrap {
+  padding: 3em 1em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1em;
+  align-items: center;
+
+  .contact_header_text_block {
+    padding: 0 1em;
+    h1 {
+      font-weight: 700;
+      margin: 1em 0;
+    }
+
+    .contact_header_text {
+      margin-bottom: 4em;
+      font-size: 1.1em;
+    }
+    .contact_link_btn {
+      text-decoration: none;
+      color: #fff;
+      border: 1px solid #fff;
+      background: #4054b2;
+      padding: 0.7em 2.7em;
+      border-radius: 3em;
+      font-weight: 500;
+      font-size: 1.1em;
+
+      .link_btn_arrow {
+        padding-top: 0.35em;
+        margin-left: 0.3em;
+      }
+    }
+  }
+  .contact_header_image_block {
+    img {
+      width: 100%;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .contact_header_wrap {
+    display: grid;
+    grid-template-columns: 1fr;
+
+    h1 {
+      font-size: 2em;
+    }
+
+    .contact_header_text_block {
+      order: 2;
+      text-align: center;
+
+      .contact_header_text {
+        font-size: 1em;
+      }
+    }
+  }
+}
+// =======================
+.reach_us_wrap {
+  background: $blue;
+  padding: 3em 2em;
+
+  h3 {
+    font-weight: 700;
+  }
+
+  .location {
+    color: #fff;
+
+    .contact_buttons {
+      display: grid;
+      grid-auto-flow: column;
+      grid-gap: 2em;
+      justify-content: center;
+      line-height: 3.5em;
+      margin-top: 2em;
+      font-weight: 500;
+
+      .whatsapp_us {
+        border: 2px solid #fff;
+        padding: 0 2em;
+        border-radius: 3em;
+      }
+
+      .call_us {
+        border: 2px solid #fff;
+        padding: 0 2em;
+        border-radius: 3em;
+      }
+    }
+
+    a {
+      text-decoration: none;
+      color: #fff;
+    }
+
+    .block {
+      display: grid;
+      grid-auto-flow: column;
+      justify-content: start;
+      line-height: 2em;
+      margin-top: 2em;
+      text-align: start;
+
+      h4 {
+        margin: 0.5em 1em;
+      }
+
+      .img_holder {
+        padding-right: 1em;
+      }
+
+      .img {
+        transform: scale(0.8);
+        padding: 0 2em;
+      }
+      .img_second {
+        transform: scale(0.8);
+        padding: 0 0.5em 0 1em;
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .reach_us_wrap {
+    display: grid;
+    grid-gap: 4em;
+    padding: 3em 0;
+
+    .location {
+      .contact_buttons {
+        display: grid;
+        grid-auto-flow: column;
+        grid-gap: 1em;
+
+        .whatsapp_us {
+          white-space: nowrap;
+        }
+
+        .call_us {
+          white-space: nowrap;
+        }
+      }
+
+      .block {
+        display: grid;
+        grid-auto-flow: row;
+        justify-content: center;
+        text-align: center;
+
+        .img {
+          width: 15em;
+          padding-bottom: 2em;
+        }
+      }
+    }
+  }
+}
+// =====================
+.client_comment_wrap {
+  background: $blue;
+  padding: 4em 1em;
+
+  h2 {
+    margin: 0 0 0.5em;
+    font-weight: 700;
+    color: #fff;
+  }
+
+  .commnets_slider_wrap {
+    background: #fff;
+    display: grid;
+    justify-content: center;
+    margin: 0 0.9em;
+    padding: 1em 0.5em;
+
+    div {
+      line-height: 2em;
+
+      img {
+        margin: 2em auto;
+        width: 7em;
+        border-radius: 50%;
+      }
+
+      i {
+        font-size: 2em;
+        color: #c4c4c4;
+        font-style: normal;
+        line-height: 0.1em;
+      }
+
+      p {
+        font-style: italic;
+        font-size: 1.1em;
+      }
+
+      h5 {
+        font-size: 1.1em;
+      }
+
+      span {
+        font-size: 0.9em;
+      }
+    }
+  }
+}
+// =======================
+.client_comment_wrap {
+    background: $blue;
+    padding: 4em 1em;
+
+    h2 {
+      margin: 0 0 0.5em;
+      font-weight: 700;
+      color: #fff;
+    }
+
+    .commnets_slider_wrap {
+      background: #fff;
+      display: grid;
+      justify-content: center;
+      margin: 0 0.9em;
+      padding: 1em 0.5em;
+
+      div {
+        line-height: 2em;
+
+        img {
+          margin: 2em auto;
+          width: 7em;
+          border-radius: 50%;
+        }
+
+        i {
+          font-size: 2em;
+          color: #c4c4c4;
+          font-style: normal;
+          line-height: 0.1em;
+        }
+
+        p {
+          font-style: italic;
+          font-size: 1.1em;
+        }
+
+        h5 {
+          font-size: 1.1em;
+        }
+
+        span {
+          font-size: 0.9em;
+        }
+      }
+    }
+  }
