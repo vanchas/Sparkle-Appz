@@ -4,6 +4,7 @@ import './App.scss';
 import Footer from '../footer/Footer';
 import Header from '../header/Header';
 import MainContent from '../mainContent/MainContent';
+import FootSocLinks from '../footer/FootSocLinks';
 
 function App() {
   return (

@@ -1,11 +1,14 @@
 import React from 'react';
 import s from './blog.module.scss';
+import BlogHeader from './BlogHeader';
+import BlogArticles from './BlogArticles';
 
 function Blog() {
   return (
-    <section className={s.blog_wrapper}>
-      Blog
-    </section>
+    <div className={s.blog_wrapper}>
+      <BlogHeader />
+      <BlogArticles />
+    </div>
   );
 }
 

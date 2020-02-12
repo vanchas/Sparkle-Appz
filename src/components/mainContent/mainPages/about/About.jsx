@@ -11,6 +11,7 @@ import SixDProcess from './6DProcess';
 import WhyChooseUs from './WhyChooseUs';
 import Team from '../home/Team';
 import WorkTogether from './WorkTogether';
+import FootSocLinks from '../../../footer/FootSocLinks';
 
 function About() {
   return (
@@ -26,6 +27,7 @@ function About() {
       <WhyChooseUs />
       <Team />
       <WorkTogether />
+      <FootSocLinks />
     </section>
   );
 }

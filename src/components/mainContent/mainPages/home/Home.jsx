@@ -17,6 +17,7 @@ import Industries from "./Industries";
 import OurValues from "./OurValues";
 import Team from "./Team";
 import ReachUs from "./ReachUs";
+import FootSocLinks from '../../../footer/FootSocLinks';
 
 function Home() {
   return (
@@ -36,6 +37,7 @@ function Home() {
       <OurValues />
       <Team />
       <ReachUs />
+      <FootSocLinks />
     </div>
   );
 }

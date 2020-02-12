@@ -4,6 +4,7 @@ import PortfolioHeader from './PortfolioHeader';
 import OurProj from './OurProj';
 import ClientSlider from '../home/ClientSlider';
 import WorkTogether from '../about/WorkTogether';
+import FootSocLinks from '../../../footer/FootSocLinks';
 
 function Portfolio() {
   return (
@@ -12,6 +13,7 @@ function Portfolio() {
       <OurProj />
       <ClientSlider />
       <WorkTogether />
+      <FootSocLinks />
     </section>
   );
 }
