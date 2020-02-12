@@ -1,13 +1,14 @@
 import React from "react";
-import s from "./home.module.scss";
+// import s from "./home.module.scss";
+import s from "../about/about.module.scss";
 
 export default class ProcessWeFollow extends React.Component {
   render() {
     return (
       <section className={`container-fluid ${s.process_we_follow_wrap}`}>
         <h2>PROCESS WE FOLLOW</h2>
-        <div className={s.process_we_follow_container}>
-          <div>
+        <ul className={s.process_we_follow_container}>
+          <li>
             <h3>01</h3>
             <div className={s.grid_item}>
               <img
@@ -22,8 +23,8 @@ export default class ProcessWeFollow extends React.Component {
                 </p>
               </div>
             </div>
-          </div>
-          <div>
+          </li>
+          <li>
             <h3>02</h3>
             <div className={s.grid_item}>
               <img
@@ -38,8 +39,8 @@ export default class ProcessWeFollow extends React.Component {
                 </p>
               </div>
             </div>
-          </div>
-          <div>
+          </li>
+          <li>
             <h3>03</h3>
             <div className={s.grid_item}>
               <img
@@ -54,8 +55,8 @@ export default class ProcessWeFollow extends React.Component {
                 </p>
               </div>
             </div>
-          </div>
-          <div>
+          </li>
+          <li>
             <h3>04</h3>
             <div className={s.grid_item}>
               <img
@@ -70,8 +71,8 @@ export default class ProcessWeFollow extends React.Component {
                 </p>
               </div>
             </div>
-          </div>
-          <div>
+          </li>
+          <li>
             <h3>05</h3>
             <div className={s.grid_item}>
               <img
@@ -86,8 +87,8 @@ export default class ProcessWeFollow extends React.Component {
                 </p>
               </div>
             </div>
-          </div>
-          <div>
+          </li>
+          <li>
             <h3>06</h3>
             <div className={s.grid_item}>
               <img
@@ -102,8 +103,8 @@ export default class ProcessWeFollow extends React.Component {
                 </p>
               </div>
             </div>
-          </div>
-          <div>
+          </li>
+          <li>
             <h3>07</h3>
             <div className={s.grid_item}>
               <img
@@ -115,8 +116,8 @@ export default class ProcessWeFollow extends React.Component {
                 <p>We give support and answer every query after deployment.</p>
               </div>
             </div>
-          </div>
-        </div>
+          </li>
+        </ul>
       </section>
     );
   }

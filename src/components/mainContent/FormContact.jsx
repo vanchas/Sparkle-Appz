@@ -1,5 +1,5 @@
 import React from "react";
-import s from "./mainPages/home/home.module.scss";
+import s from "./mainPages/about/about.module.scss";
 
 const FormContact = () => {
   return (

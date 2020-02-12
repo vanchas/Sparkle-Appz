@@ -1,5 +1,5 @@
 import React from "react";
-import s from "./home.module.scss";
+import s from "../about/about.module.scss";
 
 export default class Ranking extends React.Component {
   render() {

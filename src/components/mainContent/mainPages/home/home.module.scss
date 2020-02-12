@@ -161,20 +161,20 @@ body {
     }
   }
   // ============================
-  .who_we_worked_with_wrapper {
-    background: #f9fafd;
-    padding: 2em 1em 4em 1em;
+  // .who_we_worked_with_wrapper {
+  //   background: #f9fafd;
+  //   padding: 2em 1em 4em 1em;
 
-    h2 {
-      font-size: 2.5em;
-      font-weight: 700;
-      margin: 1em 0;
-    }
+  //   h2 {
+  //     font-size: 2.5em;
+  //     font-weight: 700;
+  //     margin: 1em 0;
+  //   }
 
-    .slide {
-      margin: 0 auto;
-    }
-  }
+  //   .slide {
+  //     margin: 0 auto;
+  //   }
+  // }
   // ====================
   .portflio_wrapper {
     padding: 3.5em 0;
@@ -243,87 +243,87 @@ body {
     }
   }
   // ===============================
-  .process_we_follow_wrap {
-    padding: 4em 0;
-    background: #f9fafd;
-    text-align: center;
+  // .process_we_follow_wrap {
+  //   padding: 4em 0;
+  //   background: #f9fafd;
+  //   text-align: center;
 
-    h2 {
-      font-size: 3em;
-      font-weight: 700;
-    }
+  //   h2 {
+  //     font-size: 3em;
+  //     font-weight: 700;
+  //   }
 
-    .process_we_follow_container {
-      background: #f7f7f7;
-      padding: 0 1em;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
+  //   .process_we_follow_container {
+  //     background: #f7f7f7;
+  //     padding: 0 1em;
+  //     display: flex;
+  //     flex-wrap: wrap;
+  //     justify-content: center;
 
-      div {
-        margin: 0.3em;
+  //     div {
+  //       margin: 0.3em;
 
-        h3 {
-          margin: 0.7em 0;
-        }
+  //       h3 {
+  //         margin: 0.7em 0;
+  //       }
 
-        .grid_item {
-          width: 20em;
-          background: #fff;
-          box-shadow: 0 0 10px 2px #cfcfcf;
-          padding: 2em 1em 1em;
+  //       .grid_item {
+  //         width: 20em;
+  //         background: #fff;
+  //         box-shadow: 0 0 10px 2px #cfcfcf;
+  //         padding: 2em 1em 1em;
 
-          h4 {
-            margin: 1em 0;
-          }
+  //         h4 {
+  //           margin: 1em 0;
+  //         }
 
-          p {
-            line-height: 1.8em;
-            color: #646464;
-          }
+  //         p {
+  //           line-height: 1.8em;
+  //           color: #646464;
+  //         }
 
-          &:hover {
-            transition: 0.5s;
-            box-shadow: 0 0 20px 5px #949494;
-          }
-        }
-      }
-    }
-  }
+  //         &:hover {
+  //           transition: 0.5s;
+  //           box-shadow: 0 0 20px 5px #949494;
+  //         }
+  //       }
+  //     }
+  //   }
+  // }
 
-  @media screen and (max-width: 768px) {
-    .process_we_follow_wrap {
-      h2 {
-        font-size: 2em;
-      }
+  // @media screen and (max-width: 768px) {
+  //   .process_we_follow_wrap {
+  //     h2 {
+  //       font-size: 2em;
+  //     }
 
-      .process_we_follow_container {
-        div {
-          .grid_item {
-            width: 100%;
-          }
-        }
-      }
-    }
-  }
+  //     .process_we_follow_container {
+  //       div {
+  //         .grid_item {
+  //           width: 100%;
+  //         }
+  //       }
+  //     }
+  //   }
+  // }
   // ==========================
-  .ranking_wrap {
-    padding: 4em 1em;
+  // .ranking_wrap {
+  //   padding: 4em 1em;
 
-    h2 {
-      font-size: 2.2em;
-      margin-bottom: 1em;
-      font-weight: 700;
-    }
+  //   h2 {
+  //     font-size: 2.2em;
+  //     margin-bottom: 1em;
+  //     font-weight: 700;
+  //   }
 
-    .ranking_list {
-      list-style: none;
+  //   .ranking_list {
+  //     list-style: none;
 
-      li img {
-        width: 14em;
-      }
-    }
-  }
+  //     li img {
+  //       width: 14em;
+  //     }
+  //   }
+  // }
   // =====================
   .client_comment_wrap {
     background: $blue;
@@ -557,29 +557,29 @@ body {
     }
   }
   // ======================
-  .team_wrap {
-    padding: 1em;
+  // .team_wrap {
+  //   padding: 1em;
 
-    h2 {
-      font-weight: 700;
-      margin: 1.5em 0;
-    }
+  //   h2 {
+  //     font-weight: 700;
+  //     margin: 1.5em 0;
+  //   }
 
-    ul {
-      list-style: none;
+  //   ul {
+  //     list-style: none;
 
-      li {
-        margin: 1em 0;
-        h4 {
-          font-size: 1.4em;
-        }
-        img {
-          border-radius: 50%;
-          margin: 1em auto;
-        }
-      }
-    }
-  }
+  //     li {
+  //       margin: 1em 0;
+  //       h4 {
+  //         font-size: 1.4em;
+  //       }
+  //       img {
+  //         border-radius: 50%;
+  //         margin: 1em auto;
+  //       }
+  //     }
+  //   }
+  // }
   // =============
   .form_wrap {
     background: #f9fafd;
