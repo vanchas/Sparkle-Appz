@@ -34,9 +34,6 @@
       grid-gap: 1em;
     }
 
-    .important_links {
-    }
-
     img {
       height: 4em;
       margin-bottom: 2em;
@@ -53,6 +50,7 @@
     }
   }
   .footer_foot {
+    padding: 0 1em;
     display: grid;
     justify-items: center;
     height: 1em;
@@ -79,11 +77,25 @@
   .footer {
 
     .footer_content_group {
+      padding: 2em 1em;
       display: grid;
       grid-template-columns: 1fr;
       justify-items: start;
       grid-template-rows: repeat(4, 1fr);
-      grid-gap: 1em;
+      grid-gap: 0;
+
+      ul {
+        display: grid;
+        grid-gap: .2em;
+
+        li h3 {
+          margin: 0;
+        }
+      }
+
+      .footer_text {
+        padding: 0;
+      }
     }
   }
   .social_links_list {
