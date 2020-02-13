@@ -6,7 +6,7 @@ import Icon from "@material-ui/core/Icon";
 export default class ReachUs extends React.Component {
   render() {
     return (
-      <section className={`container-fluid row ${s.reach_us_wrap}`}>
+      <section className={`row ${s.reach_us_wrap}`}>
         <div className={`col-lg-7 col-sm-12`}>
           <FormContact />
         </div>
