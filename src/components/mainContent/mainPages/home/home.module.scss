@@ -33,6 +33,9 @@ body {
   }
   @media screen and (max-width: 768px) {
     .home_header {
+      .home_header {
+        display: grid;
+      }
       .heading_block {
         order: 2;
       }

@@ -27,10 +27,6 @@ $blue: #315fda;
       &:hover {
         background: #777777;
       }
-
-      .blog_link_btn_arrow {
-        padding-top: 0.3em;
-      }
     }
   }
   .blog_header_image_block {
@@ -44,11 +40,14 @@ $blue: #315fda;
     display: grid;
     grid-template-columns: 1fr;
 
+    .blog_link_btn {
+      padding: 0.6em 1em !important;
+    }
+
     .blog_header_text_block {
       h1 {
         font-size: 2em;
       }
-
       .blog_header_text {
         font-size: 1em;
         margin-bottom: 2em;
@@ -128,9 +127,17 @@ $blue: #315fda;
   .blog_articles_wrap {
     .small_articles_block {
       display: grid;
+      justify-items: center;
 
       .small_card {
-        width: 95%;
+        width: 100%;
+
+        .small_card_content {
+          padding: 1em 0.7em;
+          p {
+            line-height: 1.1em;
+          }
+        }
 
         .small_card_img_2,
         .small_card_img_1 {

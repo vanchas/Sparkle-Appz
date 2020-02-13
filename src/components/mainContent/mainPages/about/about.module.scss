@@ -9,12 +9,16 @@ $blue: #315fda;
     display: inline-block;
     width: 50%;
 
+    nav {
+      padding-top: 4em;
+    }
+
     h1 {
       line-height: 1em;
     }
 
     .header_text {
-      margin: 1.5em 0 5em;
+      margin: 1em 0;
       width: 90%;
       font-size: 1.1em;
     }
@@ -348,7 +352,6 @@ $blue: #315fda;
 
       .card_header {
         background: #fff;
-        height: 2.5em;
         display: grid;
         align-content: center;
         margin-top: -1px;
@@ -358,6 +361,7 @@ $blue: #315fda;
           text-decoration: none;
           color: #000;
           font-weight: 700;
+          white-space: pre-wrap !important;
 
           span {
             color: #0c2ff5;
@@ -461,7 +465,7 @@ $blue: #315fda;
 }
 // ===============================
 .work_together_wrap {
-  background: #2355DA;
+  background: #2355da;
   padding: 5em 1em;
 
   .work_content_block {
@@ -487,7 +491,7 @@ $blue: #315fda;
       h2 {
         font-size: 2em;
         width: 90%;
-        margin: 0 auto .8em;
+        margin: 0 auto 0.8em;
         line-height: 1.5em;
       }
     }

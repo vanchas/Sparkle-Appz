@@ -36,8 +36,7 @@ function AboutHeader() {
           . We believe in <b>“Complete Customer Satisfaction”</b>
           as our definition of quality.
         </p>
-        <br />
-        <p className={`text-muted`}>
+        <p className={`${s.header_text} text-muted`}>
           We focus to deliver our expertise to our clients within time and make
           sure that our solutions be aesthetic, technically functional,
           user-friendly and responsive.
