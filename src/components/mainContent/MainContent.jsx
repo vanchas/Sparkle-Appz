@@ -2,17 +2,17 @@ import React from "react";
 import s from "./mainContent.module.scss";
 import Home from "./mainPages/home/Home";
 import About from "./mainPages/about/About";
-import Services from "./mainPages/services/IOSDev";
+import Services from "./mainPages/services/Services";
 import Portfolio from "./mainPages/portfolio/Portfolio";
 import Blog from "./mainPages/blog/Blog";
 import Contact from "./mainPages/contact/Contact";
 import { Switch, Route } from 'react-router-dom';
-import IOSDev from "./mainPages/services/IOSDev";
-import AndroidDev from "./mainPages/services/AndroidDev";
-import WebDev from "./mainPages/services/WebDev";
-import GameDev from "./mainPages/services/GameDev";
-import MarketingServ from "./mainPages/services/MarketingServ";
-import UiUx from "./mainPages/services/UiUx";
+import IOSDev from "./mainPages/services/ios/IOSDev";
+import AndroidDev from "./mainPages/services/android/AndroidDev";
+import WebDev from "./mainPages/services/web/WebDev";
+import GameDev from "./mainPages/services/game/GameDev";
+import MarketingServ from "./mainPages/services/marketing/MarketingServ";
+import UiUx from "./mainPages/services/ui-ux/UiUx";
 
 function MainContent() {
   return (

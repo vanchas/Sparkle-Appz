@@ -1,0 +1,260 @@
+.ui_ux_header_wrap {
+  padding: 4em 2em;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  align-items: center;
+
+  h1 {
+    font-weight: 700;
+    color: #6ec1e4;
+  }
+
+  .header_text_block {
+    .header_text {
+      padding: 1em 0;
+      font-weight: 500;
+      font-size: 1.1em;
+      line-height: 1.7em;
+      width: 90%;
+      a {
+        font-weight: 600;
+      }
+    }
+
+    .link_btn {
+      border-radius: 3em;
+      border: 2px solid #0aa5aa;
+      color: #0aa5aa;
+      padding: 0.7em 3em;
+      font-weight: 500;
+      text-decoration: none;
+
+      &:hover {
+        background: #575757;
+        border: 2px solid #575757;
+        transition: 0.5s;
+        color: #fff;
+      }
+
+      .link_btn_arrow {
+        transform: translateY(0.3em);
+      }
+    }
+  }
+
+  .header_image_block {
+    img {
+      width: 30%;
+      margin-left: 30%;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .ui_ux_header_wrap {
+    grid-template-columns: 1fr;
+    grid-gap: 5em;
+
+    .header_text_block {
+      order: 2;
+
+      .link_btn {
+        margin-left: calc(50% - 6.5em);
+      }
+
+      .header_text {
+        width: 100%;
+        font-size: 1em;
+      }
+    }
+    .header_image_block {
+      img {
+        width: 100%;
+        margin: 0;
+      }
+    }
+  }
+}
+// ===================
+.glimpse_wrap {
+  padding: 2em 3em 5em 3em;
+  font-size: 1.1em;
+  line-height: 1.5em;
+
+  h2 {
+    color: #6ec1e4;
+    margin: 2em 0 1em;
+  }
+  div {
+    padding-bottom: 3em;
+  }
+
+  .link_btn {
+    background: #6ec1e4;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 3em;
+    padding: 0.7em 3em;
+    font-weight: 500;
+  }
+}
+@media screen and (max-width: 768px) {
+  .glimpse_wrap {
+    padding: 0 1em 2em 1em;
+    font-size: 1em;
+
+    h2 {
+      font-size: 2.3em;
+    }
+
+    .link_btn {
+      margin-left: calc(50% - 6em);
+    }
+  }
+}
+// =====================
+.article_header_wrap {
+  padding: 4em 2em;
+
+  h2 {
+    font-weight: 700;
+    color: #6ec1e4;
+    margin-bottom: 2em;
+  }
+
+  .header_text_block {
+    display: grid;
+    align-items: center;
+
+    .header_text {
+      padding: 1em;
+      font-weight: 500;
+      font-size: 1.1em;
+      line-height: 1.7em;
+      width: 90%;
+      a {
+        font-weight: 600;
+      }
+    }
+  }
+  .link_btn {
+    background: #6ec1e4;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 3em;
+    padding: 0.7em 3em;
+    font-weight: 500;
+
+    &:hover {
+      background: #575757;
+      border: 2px solid #575757;
+      transition: 0.5s;
+      color: #fff;
+    }
+  }
+  .header_image_block {
+    img {
+      width: 100%;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .article_header_wrap {
+    .header_text_block {
+      padding-bottom: 2em;
+
+      .link_btn {
+        margin-left: calc(50% - 6.5em);
+      }
+      .header_text {
+        width: 100%;
+        font-size: 1em;
+      }
+    }
+  }
+}
+// ===================
+.ui_ux_includes_wrap {
+  margin-top: 2em;
+  padding: 3em 3em;
+  font-weight: 500;
+
+  h2 {
+    margin: 2em 0;
+    font-size: 2.2em;
+    color: #6ec1e4;
+  }
+  .block_cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 4em;
+
+    h5 {
+      font-weight: 500;
+      color: #6ec1e4;
+    }
+    .white_card {
+      padding: 1.5em;
+      display: grid;
+      grid-gap: 0.8em;
+
+      img {
+        margin: 0 auto;
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .ui_ux_includes_wrap {
+    h2 {
+      font-size: 2em;
+    }
+
+    .block_cards {
+      grid-template-columns: 1fr;
+      grid-gap: 2em;
+    }
+  }
+}
+// ====================
+.questions_wrap {
+  padding: 3em 2em;
+
+  h2 {
+    font-weight: 700;
+    margin: 1em 0;
+    color: #6ec1e4;
+  }
+
+  .accordion {
+    .card_header {
+      background: #fff;
+      border: none;
+
+      .btn_collapse {
+        text-decoration: none;
+        color: #6ec1e4;
+        text-align: start;
+
+        span {
+          color: #315fda;
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: 769px) {
+  .questions_wrap {
+    h2 {
+      font-size: 3em;
+    }
+    .accordion {
+      font-size: 1.2em;
+
+      .card_header {
+        .btn_collapse {
+          font-size: 1.3em;
+        }
+      }
+    }
+  }
+}

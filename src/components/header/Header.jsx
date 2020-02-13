@@ -9,13 +9,19 @@ function Header() {
         <ul>
           <li>
             <a href="tel:+917737791591">
-              <img src="https://www.sparkleappz.com/wp-content/uploads/2019/12/phone_icn.png" alt="phone" />{" "}
+              <img
+                src="https://www.sparkleappz.com/wp-content/uploads/2019/12/phone_icn.png"
+                alt="phone"
+              />{" "}
               +91-7737791591
             </a>
           </li>
           <li>
             <a href="mailto:info@sparkleappz.com">
-              <img src="https://www.sparkleappz.com/wp-content/uploads/2019/12/email_icn.png" alt="email" />{" "}
+              <img
+                src="https://www.sparkleappz.com/wp-content/uploads/2019/12/email_icn.png"
+                alt="email"
+              />{" "}
               info@sparkleappz.com
             </a>
           </li>

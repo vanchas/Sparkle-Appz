@@ -22,7 +22,7 @@ export default class ReachUs extends React.Component {
             </div>
             <div>
               <h4>Headquarters</h4>
-              <address>10, Paota, Jodhpur, Rajasthan, India.</address>
+              <span>10, Paota, Jodhpur, Rajasthan, India.</span>
               <a href="mailto:info@sparkleappz.com">
                 <Icon style={{ transform: "scale(.8) translateY(.4em)" }}>
                   mail_outline
@@ -54,7 +54,7 @@ export default class ReachUs extends React.Component {
               <h4>Canada Office</h4>
               <p>
                 100 city centre drive mississauga,
-                <address>Ontario, Canada.</address>
+                <span>Ontario, Canada.</span>
               </p>
             </div>
           </div>

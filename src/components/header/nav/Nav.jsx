@@ -17,12 +17,12 @@ class NavbarPage extends Component {
       <nav
         className={`${s.navbar_wrap} navbar navbar-expand-lg navbar-dark bg-white`}
       >
-        <a className="navbar-brand" href="#">
+        <NavLink className="navbar-brand" to="/">
           <img
             src="https://www.sparkleappz.com/wp-content/uploads/2019/12/logo-187x66.png"
             alt="logo"
           />
-        </a>
+        </NavLink>
         <button
           className={`${s.nav_toggle} navbar-light navbar-toggler`}
           type="button"
@@ -51,9 +51,9 @@ class NavbarPage extends Component {
               </NavLink>
             </li>
             <li className={`${s.drom_item} nav-item dropdown`}>
-              <a
+              <NavLink
                 className={` nav-link dropdown-toggle ${s.drop_link} ${s.nav_item}`}
-                href="#"
+                to="/services"
                 id="navbarDropdown"
                 role="button"
                 data-toggle="dropdown"
@@ -61,7 +61,7 @@ class NavbarPage extends Component {
                 aria-expanded="false"
               >
                 Services
-              </a>
+              </NavLink>
               <div
                 className={`${s.drop_menu} dropdown-menu`}
                 aria-labelledby="navbarDropdown"

@@ -14,13 +14,22 @@ export default class ClientSlider extends React.Component {
   }
 
   componentDidMount() {
-    console.log(this.wrapper.current.offsetWidth);
-    if (this.wrapper.current.offsetWidth <= 768) {
+    if (this.wrapper.current.offsetWidth <= 769) {
       this.setState({
         slide: 1
       });
     }
   }
+
+  reportWindowSize = () => {
+    window.innerWidth < 768
+      ? this.setState({
+          slide: 1
+        })
+      : this.setState({
+          slide: 5
+        });
+  };
 
   render() {
     var settings = {
@@ -30,6 +39,8 @@ export default class ClientSlider extends React.Component {
       slidesToShow: this.state.slide,
       slidesToScroll: 1
     };
+
+    window.onresize = this.reportWindowSize;
 
     return (
       <section

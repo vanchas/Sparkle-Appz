@@ -55,6 +55,8 @@
   .footer_foot {
     display: grid;
     justify-items: center;
+    height: 1em;
+    line-height: 1em;
   }
 }
 .social_links_list {
@@ -87,6 +89,6 @@
   .social_links_list {
     display: grid;
     grid-auto-flow: row;
-    justify-items: center;
+    font-size: .8em;
   }
 }

@@ -1,0 +1,203 @@
+.android_header_wrap {
+  padding: 4em 2em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+
+  h1 {
+    font-weight: 700;
+  }
+
+  .header_text_block {
+    .header_text {
+      padding: 1em 0;
+      font-weight: 500;
+      font-size: 1.1em;
+      line-height: 1.7em;
+      width: 90%;
+      a {
+        font-weight: 600;
+      }
+    }
+
+    .link_btn {
+      border-radius: 3em;
+      border: 2px solid #0274be;
+      color: #0274be;
+      padding: 1em 3em;
+      font-weight: 500;
+      text-decoration: none;
+
+      &:hover {
+        background: #0274be;
+        transition: 0.5s;
+        color: #fff;
+      }
+
+      .link_btn_arrow {
+        transform: translateY(0.3em);
+      }
+    }
+  }
+
+  .header_image_block {
+    img {
+      width: 100%;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .android_header_wrap {
+    grid-template-columns: 1fr;
+    grid-gap: 5em;
+
+    .header_text_block {
+      text-align: center;
+      order: 2;
+
+      .header_text {
+        width: 100%;
+      }
+    }
+  }
+}
+// ===============
+.build_wrap {
+  padding: 4em 1em;
+
+  h2 {
+    font-weight: 700;
+    margin: 1em auto;
+    font-size: 3em;
+  }
+
+  p {
+    font-size: 1.1em;
+    font-weight: 500;
+  }
+
+  .cards_block {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 4em;
+    margin-bottom: 5em;
+
+    .card {
+      display: grid;
+      grid-gap: 1em;
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  .navlink {
+    text-decoration: none;
+    color: #315fda;
+    border: 2px solid #315fda;
+    font-weight: 500;
+    border-radius: 3em;
+    padding: 0.7em 3em;
+
+    &:hover {
+      background: #315fda;
+      color: #fff;
+      transition: 0.5s;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .build_wrap {
+    h2 {
+      font-size: 2em;
+    }
+    .cards_block {
+      grid-template-columns: 1fr;
+    }
+  }
+}
+// ==========================
+.android_app_wrap {
+  margin-top: 2em;
+  padding: 3em 3em;
+  background: #f4f4f7;
+  font-weight: 500;
+
+  h2 {
+    margin: 2em 0;
+    font-weight: 700;
+    font-size: 3em;
+  }
+
+  .block_cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 4em;
+
+    h5 {
+      font-weight: 700;
+    }
+
+    .white_card {
+      background: #fff;
+      box-shadow: 0 0 10px 5px #d1d1d1;
+      padding: 1.5em;
+      display: grid;
+      grid-gap: 0.8em;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .android_app_wrap {
+    h2 {
+      font-size: 2.1em;
+    }
+
+    .block_cards {
+      grid-template-columns: 1fr;
+    }
+  }
+}
+// ===================
+.questions_wrap {
+  padding: 3em 2em;
+
+  h2 {
+    font-weight: 700;
+    margin: 1em 0;
+  }
+
+  .accordion {
+    .card_header {
+      background: #fff;
+      border: none;
+
+      .btn_collapse {
+        text-decoration: none;
+        color: #525151;
+        text-align: start;
+
+        span {
+          color: #315fda;
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: 769px) {
+  .questions_wrap {
+    h2 {
+      font-size: 3em;
+    }
+    .accordion {
+      font-size: 1.2em;
+
+      .card_header {
+        .btn_collapse {
+          font-size: 1.3em;
+        }
+      }
+    }
+  }
+}

@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import s from "./about.module.scss";
-import Icon from "@material-ui/core/Icon";
 
 export default class WhyWorkWithUs extends Component {
   constructor(props) {
@@ -16,25 +15,25 @@ export default class WhyWorkWithUs extends Component {
   componentDidMount() {
     let a = 0, b = 0, c = 0, d = 0;
     let intervalA = setInterval(() => {
-      if (a == 150) clearInterval(intervalA);
+      if (a === 150) clearInterval(intervalA);
       return this.setState({
         projects: a++
       });
     }, 42);
     let intervalB = setInterval(() => {
-      if (b == 140) clearInterval(intervalB);
+      if (b === 140) clearInterval(intervalB);
       return this.setState({
         clients: b++
       });
     }, 40);
     let intervalC = setInterval(() => {
-      if (c == 250) clearInterval(intervalC);
+      if (c === 250) clearInterval(intervalC);
       return this.setState({
         code: c++
       });
     }, 20);
     let intervalD = setInterval(() => {
-      if (d == 12) clearInterval(intervalD);
+      if (d === 12) clearInterval(intervalD);
       return this.setState({
         awards: d++
       });

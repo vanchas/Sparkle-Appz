@@ -1,5 +1,6 @@
 import React from "react";
 import s from "./home.module.scss";
+import { NavLink } from "react-router-dom";
 
 export default class WeLoveWeHelp extends React.Component {
   render() {
@@ -19,9 +20,9 @@ export default class WeLoveWeHelp extends React.Component {
             solutions be aesthetic, technically functional, user-friendly and
             responsive.
           </p>
-          <a className={s.about_us_button} href="#">
+          <NavLink className={s.about_us_button} to="/about">
             About Us
-          </a>
+          </NavLink>
         </article>
         <article className={s.we_help_block}>
           <h2>HOW WE CAN HELP YOU?</h2>

@@ -267,6 +267,7 @@ $blue: #315fda;
 
     li img {
       width: 14em;
+      cursor: pointer;
     }
   }
 }
@@ -282,6 +283,7 @@ $blue: #315fda;
   }
 
   .slide {
+    width: 90%;
     margin: 0 auto;
   }
 }
