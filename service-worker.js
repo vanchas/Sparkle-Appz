@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Sparkle-Appz/precache-manifest.00d528711a56a52d51e776cd74c09528.js"
+  "/Sparkle-Appz/precache-manifest.cff62ea80ff2aa87c9ee6a0ba9bc7104.js"
 );
 
 self.addEventListener('message', (event) => {
