@@ -9,14 +9,14 @@
     width: 100%;
     line-height: 2em;
     padding: 0.2em 3em 0 0.2em;
-  
+
     ul {
       list-style: none;
       display: grid;
       grid-auto-flow: column;
       grid-gap: 1em;
       justify-content: end;
-  
+
       li a {
         color: #000;
         text-decoration: none;
@@ -29,16 +29,20 @@
   .header {
     border: none;
 
-    .header_contact_info ul {
-      display: grid;
-      grid-template-rows: 1fr 1fr;
-      grid-gap: 0;
+    .header_contact_info {
+      padding: .1em 1.5em 0 0;
+      line-height: 1.5em;
+      ul {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 0;
 
-      li {
-        padding-bottom: .4em;
-        text-align: end;
+        li {
+          font-size: .9em;
+          padding-bottom: .2em;
+          text-align: end;
+        }
       }
     }
   }
-  
 }

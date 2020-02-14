@@ -81,12 +81,12 @@
       display: grid;
       grid-template-columns: 1fr;
       justify-items: start;
-      grid-template-rows: repeat(4, 1fr);
-      grid-gap: 0;
+      grid-template-rows: fit-content 19em 19em 15em 10em;
+      grid-gap: 1em;
 
       ul {
         display: grid;
-        grid-gap: .2em;
+        grid-gap: .5em;
 
         li h3 {
           margin: 0;
