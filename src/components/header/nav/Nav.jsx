@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import s from "./nav.module.scss";
 import { NavLink } from "react-router-dom";
 import Icon from "@material-ui/core/Icon";
+import $ from "jquery";
 
 class NavbarPage extends Component {
   state = {
@@ -10,6 +11,12 @@ class NavbarPage extends Component {
 
   toggleCollapse = () => {
     this.setState({ isOpen: !this.state.isOpen });
+  };
+
+  componentDidMount = () => {
+    $(".nav-item").not('.dropdown-toggle').on("click", () => {
+      $(".navbar-collapse").removeClass("show");
+    });
   };
 
   render() {
@@ -35,7 +42,7 @@ class NavbarPage extends Component {
           <span className="navbar-toggler-icon" />
         </button>
 
-        <div
+        <div 
           className={`${s.navbar_nav} collapse navbar-collapse`}
           id="navbarSupportedContent"
         >
@@ -66,27 +73,45 @@ class NavbarPage extends Component {
                 className={`${s.drop_menu} dropdown-menu`}
                 aria-labelledby="navbarDropdown"
               >
-                <NavLink className={`${s.drop_link} dropdown-item`} to="/IOSDev">
+                <NavLink
+                  className={`${s.drop_link} dropdown-item`}
+                  to="/IOSDev"
+                >
                   <Icon className={s.drop_item_icon}>keyboard_arrow_right</Icon>
                   IOS App Development
                 </NavLink>
-                <NavLink className={`${s.drop_link} dropdown-item`} to="/AndroidDev">
+                <NavLink
+                  className={`${s.drop_link} dropdown-item`}
+                  to="/AndroidDev"
+                >
                   <Icon className={s.drop_item_icon}>keyboard_arrow_right</Icon>
                   Android App Development
                 </NavLink>
-                <NavLink className={`${s.drop_link} dropdown-item`} to="/WebDev">
+                <NavLink
+                  className={`${s.drop_link} dropdown-item`}
+                  to="/WebDev"
+                >
                   <Icon className={s.drop_item_icon}>keyboard_arrow_right</Icon>
                   Websites Development Services
                 </NavLink>
-                <NavLink className={`${s.drop_link} dropdown-item`} to="/3DGameDev">
+                <NavLink
+                  className={`${s.drop_link} dropdown-item`}
+                  to="/3DGameDev"
+                >
                   <Icon className={s.drop_item_icon}>keyboard_arrow_right</Icon>
                   Unity 3D Game Development
                 </NavLink>
-                <NavLink className={`${s.drop_link} dropdown-item`} to="/MarketingServices">
+                <NavLink
+                  className={`${s.drop_link} dropdown-item`}
+                  to="/MarketingServices"
+                >
                   <Icon className={s.drop_item_icon}>keyboard_arrow_right</Icon>
                   Digital Marketing Services
                 </NavLink>
-                <NavLink className={`${s.drop_link} dropdown-item`} to="/Ui/UxDesignServices">
+                <NavLink
+                  className={`${s.drop_link} dropdown-item`}
+                  to="/Ui/UxDesignServices"
+                >
                   <Icon className={s.drop_item_icon}>keyboard_arrow_right</Icon>
                   UI/UX Design Services
                 </NavLink>
