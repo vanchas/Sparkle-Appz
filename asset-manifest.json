@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Sparkle-Appz/static/css/main.d9e478b8.chunk.css",
-    "main.js": "/Sparkle-Appz/static/js/main.d1ae3491.chunk.js",
-    "main.js.map": "/Sparkle-Appz/static/js/main.d1ae3491.chunk.js.map",
+    "main.js": "/Sparkle-Appz/static/js/main.4c12d4f7.chunk.js",
+    "main.js.map": "/Sparkle-Appz/static/js/main.4c12d4f7.chunk.js.map",
     "runtime-main.js": "/Sparkle-Appz/static/js/runtime-main.70810c29.js",
     "runtime-main.js.map": "/Sparkle-Appz/static/js/runtime-main.70810c29.js.map",
     "static/css/2.83870dc8.chunk.css": "/Sparkle-Appz/static/css/2.83870dc8.chunk.css",
     "static/js/2.312b4bfe.chunk.js": "/Sparkle-Appz/static/js/2.312b4bfe.chunk.js",
     "static/js/2.312b4bfe.chunk.js.map": "/Sparkle-Appz/static/js/2.312b4bfe.chunk.js.map",
     "index.html": "/Sparkle-Appz/index.html",
-    "precache-manifest.d6b1b2256c4e280a9de7ff109494a589.js": "/Sparkle-Appz/precache-manifest.d6b1b2256c4e280a9de7ff109494a589.js",
+    "precache-manifest.1a974842a5b89e307a14a0712ec85e6a.js": "/Sparkle-Appz/precache-manifest.1a974842a5b89e307a14a0712ec85e6a.js",
     "service-worker.js": "/Sparkle-Appz/service-worker.js",
     "static/css/2.83870dc8.chunk.css.map": "/Sparkle-Appz/static/css/2.83870dc8.chunk.css.map",
     "static/css/main.d9e478b8.chunk.css.map": "/Sparkle-Appz/static/css/main.d9e478b8.chunk.css.map",
@@ -22,6 +22,6 @@
     "static/css/2.83870dc8.chunk.css",
     "static/js/2.312b4bfe.chunk.js",
     "static/css/main.d9e478b8.chunk.css",
-    "static/js/main.d1ae3491.chunk.js"
+    "static/js/main.4c12d4f7.chunk.js"
   ]
 }
