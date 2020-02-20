@@ -26,7 +26,7 @@ function Footer() {
           </p>
         </li>
         <li className={s.important_links}>
-          <h3>Important Links</h3>
+          <h3 className={`h4`}>Important Links</h3>
           <nav className={s.nav}>
             <ul>
               <li>
@@ -81,7 +81,7 @@ function Footer() {
           </nav>
         </li>
         <li>
-          <h3>Useful Links</h3>
+          <h3 className={`h4`}>Useful Links</h3>
           <nav className={s.nav}>
             <ul>
               <li>
@@ -136,7 +136,7 @@ function Footer() {
           </nav>
         </li>
         <li>
-          <h3>Get In Touch</h3>
+          <h3 className={`h4`}>Get In Touch</h3>
           <div>
             <h5 className={`h6`}>
               <b> Headquarter</b>
