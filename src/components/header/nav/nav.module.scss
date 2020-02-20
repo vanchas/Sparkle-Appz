@@ -20,22 +20,24 @@ $green: #00f349;
       font-size: 0.95em;
 
       .nav_item {
-        color: #3a3a3a !important;
+        color: #3a3a3a;
         text-decoration: none;
         padding: 1em 1.5vw;
 
         &:hover {
-          color: $blue !important;
+          color: $blue;
         }
       }
 
       .drom_item {
         .drop_link {
+          color: #3a3a3a;
+
           &:hover {
-            color: $blue !important;
+            color: $blue;
           }
           &:hover .drop_item_icon {
-            color: $blue !important;
+            color: $blue;
           }
         }
         .drop_menu {
@@ -43,8 +45,8 @@ $green: #00f349;
           text-transform: none;
 
           .drop_item_icon {
-            padding-top: 0.3em !important;
-            color: #8a8a8a !important;
+            padding-top: 0.3em;
+            color: #8a8a8a;
           }
         }
       }
@@ -59,29 +61,31 @@ $green: #00f349;
     text-align: center;
 
     .button_get_free_quote {
-      color: $blue !important;
+      color: $blue;
       border: 2px solid $blue;
       border-radius: 3em;
       text-transform: none;
       padding: 0.6em 1em;
       white-space: nowrap;
+      text-decoration: none;
 
       &:hover {
-        color: #fff !important;
+        color: #fff;
         background: $blue;
         transition: 0.5s;
       }
     }
     .button_to_call {
-      color: $green !important;
+      color: $green;
       border: 2px solid $green;
       border-radius: 3em;
       text-transform: none;
       padding: 0.6em 1em;
       white-space: nowrap;
+      text-decoration: none;
 
       &:hover {
-        color: #fff !important;
+        color: #fff;
         background: $green;
         transition: 0.5s;
       }
@@ -107,6 +111,7 @@ $green: #00f349;
 
     .navbar_nav {
       justify-content: flex-start;
+      margin-top: 1em;
 
       .nav_item_wrap {
         display: grid;

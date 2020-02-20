@@ -137,15 +137,14 @@ class NavbarPage extends Component {
             <li className={`${s.btn_group} nav-item`}>
               <NavLink
                 to="/contact"
-                className={` ${s.button_get_free_quote} ${s.nav_item}`}
+                className={` ${s.button_get_free_quote}`}
                 href="https://www.sparkleappz.com/contact/"
               >
                 Get A Free Quote
               </NavLink>
               <span>
                 <a
-                  className={`${s.button_to_call}
-                ${s.nav_item}`}
+                  className={`${s.button_to_call}`}
                   href="https://www.sparkleappz.com/tel:+91773791591"
                 >
                   Call&nbsp;
