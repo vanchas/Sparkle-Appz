@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Sparkle-Appz/static/css/main.c3086176.chunk.css",
-    "main.js": "/Sparkle-Appz/static/js/main.81be2c4d.chunk.js",
-    "main.js.map": "/Sparkle-Appz/static/js/main.81be2c4d.chunk.js.map",
+    "main.css": "/Sparkle-Appz/static/css/main.cea27418.chunk.css",
+    "main.js": "/Sparkle-Appz/static/js/main.9954f664.chunk.js",
+    "main.js.map": "/Sparkle-Appz/static/js/main.9954f664.chunk.js.map",
     "runtime-main.js": "/Sparkle-Appz/static/js/runtime-main.70810c29.js",
     "runtime-main.js.map": "/Sparkle-Appz/static/js/runtime-main.70810c29.js.map",
     "static/css/2.83870dc8.chunk.css": "/Sparkle-Appz/static/css/2.83870dc8.chunk.css",
     "static/js/2.85b3c15a.chunk.js": "/Sparkle-Appz/static/js/2.85b3c15a.chunk.js",
     "static/js/2.85b3c15a.chunk.js.map": "/Sparkle-Appz/static/js/2.85b3c15a.chunk.js.map",
     "index.html": "/Sparkle-Appz/index.html",
-    "precache-manifest.5b3712474710bed7a668613764f54fa6.js": "/Sparkle-Appz/precache-manifest.5b3712474710bed7a668613764f54fa6.js",
+    "precache-manifest.a46b0093f4e1674b847d0be0696083d0.js": "/Sparkle-Appz/precache-manifest.a46b0093f4e1674b847d0be0696083d0.js",
     "service-worker.js": "/Sparkle-Appz/service-worker.js",
     "static/css/2.83870dc8.chunk.css.map": "/Sparkle-Appz/static/css/2.83870dc8.chunk.css.map",
-    "static/css/main.c3086176.chunk.css.map": "/Sparkle-Appz/static/css/main.c3086176.chunk.css.map",
+    "static/css/main.cea27418.chunk.css.map": "/Sparkle-Appz/static/css/main.cea27418.chunk.css.map",
     "static/js/2.85b3c15a.chunk.js.LICENSE.txt": "/Sparkle-Appz/static/js/2.85b3c15a.chunk.js.LICENSE.txt",
     "static/media/react-bootstrap-carousel.css": "/Sparkle-Appz/static/media/react-bootstrap-carousel.f86d9bf3.svg",
     "static/media/slick-theme.css": "/Sparkle-Appz/static/media/slick.f97e3bbf.svg"
@@ -21,7 +21,7 @@
     "static/js/runtime-main.70810c29.js",
     "static/css/2.83870dc8.chunk.css",
     "static/js/2.85b3c15a.chunk.js",
-    "static/css/main.c3086176.chunk.css",
-    "static/js/main.81be2c4d.chunk.js"
+    "static/css/main.cea27418.chunk.css",
+    "static/js/main.9954f664.chunk.js"
   ]
 }
