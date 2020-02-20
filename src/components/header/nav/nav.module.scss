@@ -8,24 +8,22 @@ $green: #00f349;
   }
 
   .navbar_nav {
-    position: relative;
-    margin-top: 1em;
+    display: flex;
+    justify-content: flex-end;
   }
 
   .nav_item_wrap {
     font-weight: 600;
     text-transform: uppercase;
-    position: absolute;
-    right: 0;
     display: grid;
     grid-auto-flow: column;
-    justify-items: center;
     align-items: center;
+    font-size: 0.95em;
 
     .nav_item {
-      color: #464646 !important;
+      color: #3a3a3a !important;
       text-decoration: none;
-      padding: 1em;
+      padding: 1em 1.5vw;
 
       &:hover {
         color: $blue !important;
@@ -57,15 +55,16 @@ $green: #00f349;
     display: grid;
     grid-auto-flow: column;
     grid-gap: 1em;
-    width: 17em;
-    line-height: 1.5em;
     align-items: center;
+    text-align: center;
 
     .button_get_free_quote {
       color: $blue !important;
       border: 2px solid $blue;
       border-radius: 3em;
       text-transform: none;
+      padding: 0.6em 1em;
+      white-space: nowrap;
 
       &:hover {
         color: #fff !important;
@@ -78,16 +77,24 @@ $green: #00f349;
       border: 2px solid $green;
       border-radius: 3em;
       text-transform: none;
+      padding: 0.6em 1em;
+      white-space: nowrap;
 
       &:hover {
         color: #fff !important;
         background: $green;
         transition: 0.5s;
       }
+
+      .phone_icon {
+        font-size: 1.2em;
+        transform: translateY(0.2em);
+      }
     }
   }
 }
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 893px) {
   .navbar_wrap {
     padding: 0 !important;
 
@@ -99,8 +106,9 @@ $green: #00f349;
     }
 
     .navbar_nav {
+      justify-content: flex-start;
+
       .nav_item_wrap {
-        position: static;
         display: grid;
         grid-auto-flow: row;
         grid-template-columns: 1fr;
@@ -108,13 +116,15 @@ $green: #00f349;
         justify-items: start;
         background: #f8f8f8;
         grid-gap: 1em;
-        padding: .5em 0 1em 0;
-        
+        padding: 0.5em 0 1em 0;
+        width: 100%;
+
         li {
           border-top: 1px solid #dadada;
           width: 100%;
           height: 3em;
           line-height: 3em;
+          padding-left: 1em;
 
           .drop_link {
             transform: translateY(-1em);

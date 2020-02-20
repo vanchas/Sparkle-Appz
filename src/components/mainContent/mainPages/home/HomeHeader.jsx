@@ -5,10 +5,10 @@ export default class HomeHeader extends React.Component {
   render() {
     return (
       <header className={`container-fluid row ${s.home_header}`}>
-        <div className={`${s.heading_block} col col-lg-6 align-middle col-sm-12 text-center`}>
-          <h2 className={`h1`}>
+        <div className={`${s.heading_block} col col-lg-6 align-middle col-sm-12`}>
+          <h1 className={`h1`}>
             WE CONCEPTUALIZE, <b>DESIGN AND DEVELOP APPS</b> THAT PEOPLE LOVE
-          </h2>
+          </h1>
         </div>
         <div className={`col col-lg-6 col-sm-12`}>
           <img

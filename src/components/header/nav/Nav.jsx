@@ -14,9 +14,11 @@ class NavbarPage extends Component {
   };
 
   componentDidMount = () => {
-    $(".nav-item").not('.dropdown-toggle').on("click", () => {
-      $(".navbar-collapse").removeClass("show");
-    });
+    $(".nav-item")
+      .not(".dropdown-toggle")
+      .on("click", () => {
+        $(".navbar-collapse").removeClass("show");
+      });
   };
 
   render() {
@@ -39,14 +41,14 @@ class NavbarPage extends Component {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon" />
+          <span className={`${s.toggler_icon} navbar-toggler-icon`} />
         </button>
 
-        <div 
+        <div
           className={`${s.navbar_nav} collapse navbar-collapse`}
           id="navbarSupportedContent"
         >
-          <ul className={`${s.nav_item_wrap}  navbar-nav mr-auto`}>
+          <ul className={`${s.nav_item_wrap}  navbar-nav`}>
             <li className="nav-item active">
               <NavLink className={s.nav_item} to="/">
                 Home
@@ -147,9 +149,7 @@ class NavbarPage extends Component {
                   href="https://www.sparkleappz.com/tel:+91773791591"
                 >
                   Call&nbsp;
-                  <Icon style={{ transform: "scale(.7)  translateY(.3em)" }}>
-                    phone_enabled
-                  </Icon>{" "}
+                  <Icon className={s.phone_icon}>phone_enabled</Icon>{" "}
                 </a>
               </span>
             </li>
