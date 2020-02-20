@@ -14,11 +14,11 @@ class NavbarPage extends Component {
   };
 
   componentDidMount = () => {
-    $(".navbar-collapse").removeClass("show");
     $(".nav-item")
       .not(".dropdown-toggle")
       .on("click", () => {
         $(".navbar-collapse").removeClass("show");
+        $(".navbar-toggler").addClass("collapsed");
       });
   };
 
@@ -34,7 +34,7 @@ class NavbarPage extends Component {
           />
         </NavLink>
         <button
-          className={`${s.nav_toggle} navbar-light navbar-toggler`}
+          className={`${s.nav_toggle} navbar-light navbar-toggler collapsed`}
           type="button"
           data-toggle="collapse"
           data-target="#navbarSupportedContent"
