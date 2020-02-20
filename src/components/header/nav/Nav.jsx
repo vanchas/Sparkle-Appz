@@ -14,6 +14,7 @@ class NavbarPage extends Component {
   };
 
   componentDidMount = () => {
+    $(".navbar-collapse").removeClass("show");
     $(".nav-item")
       .not(".dropdown-toggle")
       .on("click", () => {
