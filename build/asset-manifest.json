@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/Sparkle-Appz/static/css/main.d9e478b8.chunk.css",
-    "main.js": "/Sparkle-Appz/static/js/main.1ffb14ee.chunk.js",
-    "main.js.map": "/Sparkle-Appz/static/js/main.1ffb14ee.chunk.js.map",
-    "runtime-main.js": "/Sparkle-Appz/static/js/runtime-main.70810c29.js",
-    "runtime-main.js.map": "/Sparkle-Appz/static/js/runtime-main.70810c29.js.map",
-    "static/css/2.83870dc8.chunk.css": "/Sparkle-Appz/static/css/2.83870dc8.chunk.css",
-    "static/js/2.737f2f41.chunk.js": "/Sparkle-Appz/static/js/2.737f2f41.chunk.js",
-    "static/js/2.737f2f41.chunk.js.map": "/Sparkle-Appz/static/js/2.737f2f41.chunk.js.map",
+    "main.css": "/Sparkle-Appz/static/css/main.b3a23085.chunk.css",
+    "main.js": "/Sparkle-Appz/static/js/main.c4105a86.chunk.js",
+    "main.js.map": "/Sparkle-Appz/static/js/main.c4105a86.chunk.js.map",
+    "runtime-main.js": "/Sparkle-Appz/static/js/runtime-main.bd37ffba.js",
+    "runtime-main.js.map": "/Sparkle-Appz/static/js/runtime-main.bd37ffba.js.map",
+    "static/css/2.6e2fb314.chunk.css": "/Sparkle-Appz/static/css/2.6e2fb314.chunk.css",
+    "static/js/2.2520cf28.chunk.js": "/Sparkle-Appz/static/js/2.2520cf28.chunk.js",
+    "static/js/2.2520cf28.chunk.js.map": "/Sparkle-Appz/static/js/2.2520cf28.chunk.js.map",
     "index.html": "/Sparkle-Appz/index.html",
-    "precache-manifest.03114007d1bbc5f07cc88c6778bdbdbe.js": "/Sparkle-Appz/precache-manifest.03114007d1bbc5f07cc88c6778bdbdbe.js",
+    "precache-manifest.68a2a7506bb0119b34c1c576474a4c67.js": "/Sparkle-Appz/precache-manifest.68a2a7506bb0119b34c1c576474a4c67.js",
     "service-worker.js": "/Sparkle-Appz/service-worker.js",
-    "static/css/2.83870dc8.chunk.css.map": "/Sparkle-Appz/static/css/2.83870dc8.chunk.css.map",
-    "static/css/main.d9e478b8.chunk.css.map": "/Sparkle-Appz/static/css/main.d9e478b8.chunk.css.map",
-    "static/js/2.737f2f41.chunk.js.LICENSE.txt": "/Sparkle-Appz/static/js/2.737f2f41.chunk.js.LICENSE.txt",
-    "static/media/react-bootstrap-carousel.css": "/Sparkle-Appz/static/media/react-bootstrap-carousel.f86d9bf3.svg",
+    "static/css/2.6e2fb314.chunk.css.map": "/Sparkle-Appz/static/css/2.6e2fb314.chunk.css.map",
+    "static/css/main.b3a23085.chunk.css.map": "/Sparkle-Appz/static/css/main.b3a23085.chunk.css.map",
+    "static/js/2.2520cf28.chunk.js.LICENSE.txt": "/Sparkle-Appz/static/js/2.2520cf28.chunk.js.LICENSE.txt",
+    "static/media/react-bootstrap-carousel.css": "/Sparkle-Appz/static/media/react-bootstrap-carousel.f7448c04.ttf",
     "static/media/slick-theme.css": "/Sparkle-Appz/static/media/slick.f97e3bbf.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.70810c29.js",
-    "static/css/2.83870dc8.chunk.css",
-    "static/js/2.737f2f41.chunk.js",
-    "static/css/main.d9e478b8.chunk.css",
-    "static/js/main.1ffb14ee.chunk.js"
+    "static/js/runtime-main.bd37ffba.js",
+    "static/css/2.6e2fb314.chunk.css",
+    "static/js/2.2520cf28.chunk.js",
+    "static/css/main.b3a23085.chunk.css",
+    "static/js/main.c4105a86.chunk.js"
   ]
 }
