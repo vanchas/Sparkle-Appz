@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1a8ff8744d601433adb5b4a2a400483b",
+    "revision": "dd85d4f29e175a2d3de916aaaab60e0d",
     "url": "/Sparkle-Appz/index.html"
   },
   {
